@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
 .navigation{
-     background-color: rgb(139, 129, 129);
+    background-color: rgb(139, 129, 129);
     padding: 10px;
     color: black;
     width: 100%;
@@ -17,16 +22,33 @@
     margin: auto; 
     top: 0%;
     position: sticky;
+    z-index: 10;
 }
 .main ul{
-     list-style: none;
+    list-style: none;
     gap: 20px;
     display: flex;
+}
+.son a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 
+    Georgia, 
+    'Times New Roman', 
+    Times, serif;
+    cursor: grab;
 }
 .main li{
     color: rgb(255, 115, 0);
     font-weight: bolder;
 }
-span{
+marquee{
     color: rgb(255, 115, 0);
+    font-family:
+    'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, 
+    sans-serif;
+    font-size: 30px;
+    margin: 10px;
 }
