@@ -1,54 +1,51 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 5px;
+    padding: 1px auto;
 }
-.navigation{
-    background-color: rgb(139, 129, 129);
-    padding: 10px;
-    color: black;
+.header {
+    padding: 1px;
     width: 100%;
+    border-radius: 10px;
 }
-.main img{
-    height: 50px;
-    border-radius:19px;
+.header img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10px;
 }
-.main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    flex-wrap: wrap;
-    margin: auto; 
+.nav {
+    background-color: #e3e3e3;
+    border: 20px #e3e3e3 solid;
+    border-radius: 100px;
+    width: 50%;
+    margin-top: 20px;
     top: 0%;
     position: sticky;
     z-index: 10;
+    margin-left: 25%;
+    padding: 15px;
 }
-.main ul{
+.nav ul {
     list-style: none;
-    gap: 20px;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    margin: 10px 0;
 }
-.son a {
-    color: white;
+.nav_list a {
     text-decoration: none;
-    font-size: 20px;
-    font-family: 
-    Georgia, 
-    'Times New Roman', 
-    Times, serif;
-    cursor: grab;
 }
-.main li{
-    color: rgb(255, 115, 0);
-    font-weight: bolder;
+marquee {
+    color: black;
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    font-weight: 600;
 }
-marquee{
-    color: rgb(255, 115, 0);
-    font-family:
-    'Franklin Gothic Medium', 
-    'Arial Narrow', Arial, 
-    sans-serif;
-    font-size: 30px;
-    margin: 10px;
+p {
+    font-size: 40px;
+    font-family: monospace;
 }
