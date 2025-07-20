@@ -7,7 +7,6 @@
     background-image: url('media/imagedroneview.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 100vh;
     width: 100%;
 }
@@ -15,27 +14,26 @@
     padding: 1px;
     width: 100%;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .header img {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     position: relative;
     top: 10px;
 }
 .nav {
     background-color: #e3e3e3;
-    border: 20px #e3e3e3 solid;
+    border: 10px transparent;
     border-radius: 100px;
-    width: 50%;
+    width: 40%;
     margin-top: 20px;
     top: 0%;
     position: sticky;
     z-index: 10;
-    margin-left: 25%;
-    padding: 15px;
+    margin-left: 30%;
+    padding: 10px;
 }
 .nav ul {
     list-style: none;
@@ -51,25 +49,26 @@
 marquee {
     color: rgb(249, 249, 249);
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     font-weight: 600;
 }
 p {
-    font-size: 40px;
+    font-size: 30px;
     font-family: monospace;
 }
 .hero {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     width: 100%;
     margin-top: 5%;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
 }
 .vid video {
     border-radius: 25px;
+    width: 100%;
 }
