@@ -7,23 +7,39 @@
     <link rel="stylesheet" href="delivery.css">
 </head>
 <body>
-    <section class="body">
+     <section class="body">
         <!-- this is the header -->
         <header class="header">
-            <marquee behavior="scroll" direction="right">
-            <p>PHASS <img src="media/icondelvbike.png" alt="logo"> DELIVERY</p></marquee>
+            <marquee id="home" behavior="scroll" direction="right">
+            <p class="head_para">PHASS <img src="media/icondelvbike.png" alt="logo"> DELIVERY</p></marquee>
         </header>
-        <!-- my navigation limks -->
+        <!-- my navigation links -->
         <nav class="nav">
             <ul class="nav_list">                    
                 <li><a href="#home"><img src="media/iconhome.png" height= "20px"></a></li>
-                <li><a href="#contact"><img src="media/iconcontact.png" height= "20px"></a></li>
                 <li><a href="#services"><img src="media/iconfastvan.png" height= "20px"></a></li>
                 <li><a href="#tracking"><img src="media/iconlocation.png" height= "20px"></a></li>
+                <li><a href="#contact"><img src="media/iconcontact.png" height= "20px"></a></li>
                 <li><a href="#about"><img src="media/icon24hr.png" height= "20px"></a></li>
             </ul>
         </nav>
-        <!-- this section talks about our services -->
+        <!-- this section is the home area -->
+        <section id="services" class="service">
+            <h1 class="servicename">PHASS DELIVERY</h1>
+            <p class="servicepara">
+                Phass Delivery it's more than it name.
+                Experience our expeditious delivery service, 
+                getting your packages to their destination in record time.
+                Our accelerated logistics network ensures swift 
+                and timely arrival of every shipment, coupled with
+                our streamlined delivery process, aims to 
+                eliminate unnecessary steps, guaranteeing faster service.
+                For a truly dependable delivery partner, 
+                look no further. We deliver on our promises, every even time.
+            </p>
+            <button class="servicebtn" type="submit">checkout</button>
+        </section>
+        <div class="horiz"></div>
         <section class="hero">
             <div class="vid">
                 <video height="230px" autoplay loop muted>
@@ -41,7 +57,45 @@
                 </video>
             </div>
         </section>
-        
+        <!-- <h2>Our Services</h2> -->
+         <div class="serv">
+            <h2>
+                Multi-Services
+            </h2>
+            <hr class="horizon">
+         </div>
+        <section class="service-card">
+            <div class="cards"> 
+                <img src="media/stickerrecvngpckg.jpg" height="160px">
+                <h3>Same<br>Day<br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerswiftdelv.jpg" height="170px">
+                <h3>Over<br>Night<br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerlocglobe.jpg" height="170px">
+                <h3>World<br>Wide <br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickermanrequestdev.jpg" height="170px">
+                <h3>Phass<br>Reliable<br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerprotection.jpg" height="170px">
+                <h3>Real<br>Time<br>Tracking</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerprotectpkg.jpg" height="170px">
+                <h3>Secured<br>Handling</h3>
+                <button>review</button>
+            </div>
+        </section>
     </section>
 </body>
 </html>

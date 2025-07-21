@@ -7,7 +7,8 @@
     background-image: url('media/imagedroneview.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 100%;
     width: 100%;
 }
 .header {
@@ -27,12 +28,12 @@
     background-color: #e3e3e3;
     border: 10px transparent;
     border-radius: 100px;
-    width: 40%;
+    width: 30%;
     margin-top: 20px;
     top: 0%;
     position: sticky;
     z-index: 10;
-    margin-left: 30%;
+    margin-left: 35%;
     padding: 10px;
 }
 .nav ul {
@@ -53,7 +54,7 @@ marquee {
     width: 100%;
     font-weight: 600;
 }
-p {
+.head_para {
     font-size: 30px;
     font-family: monospace;
 }
@@ -65,10 +66,108 @@ p {
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     width: 100%;
-    margin-top: 5%;
     padding: 10px;
 }
 .vid video {
     border-radius: 25px;
     width: 100%;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+.servicename {
+    font-size: 30px;
+    color: rgb(197, 230, 15);
+    font-family: 
+    Verdana, Geneva, 
+    Tahoma, 
+    sans-serif;
+}
+.servicepara {
+    font-family: monospace;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin: 30px;
+    padding: 10px;
+}
+.servicebtn {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.servicebtn:hover {
+    padding: 12px 22px;
+}
+.horiz {
+    border: 1px solid white;
+    margin: 50px;
+}
+.serv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+    color: rgb(125, 154, 248);
+    font-size: 30px;
+}
+.horizon {
+    flex-grow: 1;
+    height: 0;
+    position: relative;
+    top: 10px;
+    margin: 20px;
+}
+.service-card {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    gap: 15px;
+    position: relative;
+    bottom: 50px;
+}
+.cards {
+    background-color:rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    color: white;
+}
+.cards h3 {
+    text-align: center;
+}
+.cards button {
+    border-radius: 10px;
+    padding: 7px;
+    font-family: 
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans', 
+    Arial, sans-serif;
+    background-color: rgb(197, 230, 15);
+    font-size: 17px;
+}
+.cards:hover {
+    padding: 17px;
 }
