@@ -3,27 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phass_Deli</title>
+    <title>Phass_Net</title>
     <link rel="stylesheet" href="delivery.css">
 </head>
 <body>
     <section class="body">
         <!-- this is the header -->
         <header class="header">
-            <marquee behavior="scroll" direction="right">
-            <p>PHASS <img src="media/icondelvbike.png" alt="logo"> DELIVERY</p></marquee>
+            <marquee id="home" behavior="scroll" direction="right">
+            <p class="head_para">PHASS <img src="media/icondelvbike.png" alt="logo"> DELIVERY</p></marquee>
         </header>
-        <!-- my navigation limks -->
+        <!-- my navigation links -->
         <nav class="nav">
             <ul class="nav_list">                    
                 <li><a href="#home"><img src="media/iconhome.png" height= "20px"></a></li>
-                <li><a href="#contact"><img src="media/iconcontact.png" height= "20px"></a></li>
                 <li><a href="#services"><img src="media/iconfastvan.png" height= "20px"></a></li>
-                <li><a href="#tracking"><img src="media/iconlocation.png" height= "20px"></a></li>
                 <li><a href="#about"><img src="media/icon24hr.png" height= "20px"></a></li>
+                <li><a href="#contact"><img src="media/iconcontact.png" height= "20px"></a></li>
+                <li><a href="#tracking"><img src="media/iconlocation.png" height= "20px"></a></li>
             </ul>
         </nav>
-        <!-- this section talks about our services -->
+        <!-- this section is the home area -->
+        <section class="service">
+            <h1 class="servicename">PHASS DELIVERY</h1>
+            <p class="servicepara">
+                Phass Delivery it's more than it name.
+                Experience our expeditious delivery service, 
+                getting your packages to their destination in record time.
+                Our accelerated logistics network ensures swift 
+                and timely arrival of every shipment, coupled with
+                our streamlined delivery process, aims to 
+                eliminate unnecessary steps, guaranteeing faster service.
+                For a truly dependable delivery partner, 
+                look no further. We deliver on our promises, every even time.
+            </p>
+            <button class="servicebtn" type="submit">checkout</button>
+        </section>
+        <div class="horiz"></div>
         <section class="hero">
             <div class="vid">
                 <video height="230px" autoplay loop muted>
@@ -41,7 +57,81 @@
                 </video>
             </div>
         </section>
-        
+        <!-- <h2>Our Services</h2> -->
+         <div id="services" class="serv">
+            <h2>
+                Multi-Services
+            </h2>
+            <hr class="horizon">
+         </div>
+        <section class="service-card">
+            <div class="cards"> 
+                <img src="media/stickerrecvngpckg.jpg" height="160px">
+                <h3>Same<br>Day<br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerswiftdelv.jpg" height="170px">
+                <h3>Over<br>Night<br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerlocglobe.jpg" height="170px">
+                <h3>World<br>Wide <br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickermanrequestdev.jpg" height="170px">
+                <h3>Phass<br>Reliable<br>Delivery</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerprotection.jpg" height="170px">
+                <h3>Real<br>Time<br>Tracking</h3>
+                <button>review</button>
+            </div>
+            <div class="cards">
+                <img src="media/stickerprotectpkg.jpg" height="170px">
+                <h3>Secured<br>Handling</h3>
+                <button>review</button>
+            </div>
+        </section>
+        <!-- this is the about section -->
+        <marquee id="about" behavior="scroll" direction="right" class="marq">ABOUT &nbsp;&nbsp;&nbsp; PHASS &nbsp;&nbsp;&nbsp; NET</marquee>
+        <section class="about">
+            <section class="abt">
+                <i class="itext">HISTORY <b>*</b></i> <br>
+                <p class="abtpara">
+                    PHASS NET was founded, 1998 by entrepreneur Anya Sharma, <br>
+                    initially operating out of a single garage with just two vans. <br>
+                    Anya, a former logistics manager, identified a gap in the market for reliable, <br>
+                    same-day deliveries within her city. <br>
+                    Through word-of-mouth and a relentless focus on customer satisfaction, <br> 
+                    the company steadily grew. By 2005, <br>
+                    PHASS NET had expanded its operations to cover an entire region, and by 2015, <br>
+                    it had established a nationwide network, <br>
+                    leveraging advanced tracking technology and a diverse fleet. <br> 
+                    A significant milestone was reached in 2020 with the launch of its eco-friendly delivery initiative, <br>
+                    incorporating electric vehicles and sustainable packaging. 
+                </p>
+            </section>
+            <hr class="horizon">
+            <section class="abt">
+                <i class="itext">MISSIONS <b>*</b></i> <br> 
+                <p class="abtpara">
+                    PHASS NET's mission is to empower businesses and individuals by providing swift, <br>
+                    secure, and sustainable delivery solutions that connect communities and drive commerce. <br>
+                    We are committed to leveraging innovation and a customer-centric 
+                    approach <br> to ensure every parcel reaches its destination 
+                    efficiently, <br>
+                    reliably, and with minimal environmental impact. <br>
+                    Our core values include speed, integrity, 
+                    transparency, <br>
+                    and a dedication 
+                    to continuous improvement in all aspects of our service.
+                </p>
+            </section>
+        </section>
     </section>
 </body>
 </html>
